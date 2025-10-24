@@ -196,7 +196,7 @@ Route::get('/sale', function () {
         } else {
             $isFile = false;
         }
-    } while ($isFile && $i < 50);
+    } while ($isFile);
 
 });
 
@@ -242,6 +242,6 @@ Route::get('/order', function () {
         } else {
             $isFile = false;
         }
-    } while ($isFile && $i < 5);
+    } while ($isFile);
 
 });
